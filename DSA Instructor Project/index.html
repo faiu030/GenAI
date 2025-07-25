@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSA Instructor AI</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Your Personal DSA Instructor</h1>
+            <p>Ask me any question about Data Structures and Algorithms!</p>
+        </header>
+        <main>
+            <form id="dsa-form">
+                <textarea id="question-input" rows="4" placeholder="e.g., Explain the time complexity of Quicksort..."></textarea>
+                <button id="submit-button" type="submit">Ask AI</button>
+            </form>
+            <div id="response-container">
+                <pre id="response-output">Your answer will appear here...</pre>
+            </div>
+        </main>
+        <footer>
+            <p>Powered by Google's Gemini</p>
+        </footer>
+    </div>
+    <!-- We will link to our new JS file -->
+    <script src="app.js"></script>
+</body>
+</html>
